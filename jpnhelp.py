@@ -7,10 +7,7 @@ def rndmp3 ():
     randomfile = random.choice(os.listdir("/home/pi/Music/"))
     file = ' /home/pi/Music/'+ randomfile
     os.system ('mpg123' + file)
-    
-def rndmp3 (mp3):
-    #mp3=rand
-    #rest of mp3 code
+    return file
     
 sig = None
     
@@ -28,13 +25,12 @@ button2.pull = digitalio.Pull.UP
 while True:
     
     if not button1.value:
-        rndmp3(sig)
-        print("button pressed")
+        sig = rndmp3()
+        print("button 1 pressed")
                                
     if not button2.value:
+        os.system ('mpg123' + sig)
+        print("button 2 pressed")
                                
     time.sleep(.25)
                                
-
-
-
