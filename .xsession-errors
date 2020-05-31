@@ -1,4 +1,4 @@
-Xsession: X session started for pi at Sun 31 May 2020 02:56:23 PM EDT
+Xsession: X session started for pi at Sun 31 May 2020 06:15:20 PM EDT
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting DISPLAY=:0
 dbus-update-activation-environment: setting XAUTHORITY=/home/pi/.Xauthority
@@ -27,7 +27,7 @@ dbus-update-activation-environment: setting NO_AT_BRIDGE=1
 dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
 dbus-update-activation-environment: setting LC_ALL=en_US.UTF-8
 dbus-update-activation-environment: setting PWD=/home/pi
-** Message: 14:56:25.069: main.vala:101: Session is LXDE-pi
-** Message: 14:56:25.070: main.vala:102: DE is LXDE
-** Message: 14:56:25.529: main.vala:133: log directory: /home/pi/.cache/lxsession/LXDE-pi
-** Message: 14:56:25.529: main.vala:134: log path: /home/pi/.cache/lxsession/LXDE-pi/run.log
+** Message: 18:15:22.303: main.vala:101: Session is LXDE-pi
+** Message: 18:15:22.304: main.vala:102: DE is LXDE
+** Message: 18:15:22.705: main.vala:133: log directory: /home/pi/.cache/lxsession/LXDE-pi
+** Message: 18:15:22.705: main.vala:134: log path: /home/pi/.cache/lxsession/LXDE-pi/run.log
